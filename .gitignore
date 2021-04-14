@@ -1,0 +1,14 @@
+# Folders
+private-resources/
+
+# Generated file
+*.aux
+*.log
+*.pdf
+*.synctex.gz
+*.bbl
+*.bbg
+*.blg
+
+# Exclude readme
+!main/readme/*
