@@ -10,5 +10,8 @@ private-resources/
 *.bbg
 *.blg
 
+# Ployground for testing
+playground.tex
+
 # Exclude readme
 !main/readme/*
