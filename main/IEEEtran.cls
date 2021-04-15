@@ -2495,7 +2495,13 @@
 \fi
 
 % The IEEE does not use footnote rules
-\def\footnoterule{}
+%\def\footnoterule{}
+% JNTETI footnote rules
+\def\footnoterule{
+	\kern-3\p@
+	\hrule \columnwidth \p@
+	\kern 2.6\p@} % the \hrule is .4pt high
+\@definecounter{footnote}
 
 % V1.7 for compsoc, the IEEE uses a footnote rule only for \thanks. We devise a "one-shot"
 % system to implement this.
